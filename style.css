@@ -1,0 +1,58 @@
+/*web dev final*/
+/*home*/
+
+@font-face {
+	font-family: myFirstFont;
+	src: url(poppins_regular.ttf);
+}
+
+*{
+	font-family: myFirstFont;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	background-color: #171C3A;
+}
+
+.homeContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+/*	align-items: center;*/
+color: white;
+}
+
+#vid {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#vid h3 {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+
+#thumbnail {
+	width: 400px;
+	height: 300px;
+	object-fit: cover;
+	box-shadow: -10px 10px;
+}
+
+#homeVids {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+

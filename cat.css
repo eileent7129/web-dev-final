@@ -1,0 +1,35 @@
+/*web dev final*/
+/*watch*/
+
+
+@font-face {
+	font-family: myFirstFont;
+	src: url(poppins_regular.ttf);
+}
+
+*{
+	font-family: myFirstFont;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	background-color: #171C3A;
+}
+
+#videoContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#video {
+	display: flex;
+	padding-top: 60px;
+}
+
+#myVideo {
+	
+}
+
