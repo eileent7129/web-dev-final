@@ -29,7 +29,65 @@ body{
 	padding-top: 60px;
 }
 
-#myVideo {
-	
+#feedback {
+	display: flex;
+	justify-content: flex-start;
+	width: 800px;
+	gap: 0px 15px;
+	padding-top: 10px;
 }
 
+#like, #dislike {
+	width: 50px;
+	height: 50px;
+	color: white;
+}
+
+#like:hover, #dislike:hover {
+	color: #B7B7B7;
+}
+
+.skip {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 140px;
+	height: 50px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.skip:hover{
+	border: 5px solid #91FDFD;
+}
+
+.skip p {
+	font-size: 36px;
+	margin: 0px;
+}
+
+.hiddenContent {
+	display: flex;
+	flex-direction: column;
+	gap: 5px 0px;
+	padding-bottom: 20px;
+}
+
+.hiddenContent h3{
+	font-size: 36px;
+	color: white;
+	padding-left: 20px;
+}
+
+#recVideos, #trendVideos { 
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#thumbnail {
+	width: 300px;
+	height: 230px;
+	object-fit: cover;
+	box-shadow: -10px 10px black;
+}
